@@ -12,10 +12,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
+  ],
+  "workspaces": [
+    "packages/*"
   ]
 }
