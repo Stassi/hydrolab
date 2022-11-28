@@ -1,2 +1,1 @@
-// TODO: Replace module with addN function
-export { default as identity } from './identity.js'
+export { default as addN } from './addN.js'
