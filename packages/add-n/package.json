@@ -27,9 +27,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "jest:esm": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "prepublishOnly": "npm run build",
-    "test": "npm run jest:esm"
+    "test": "jest"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
